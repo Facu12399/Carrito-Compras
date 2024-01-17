@@ -1,0 +1,151 @@
+.contenedor-father{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.centrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.elemento1{
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#compras{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    border-radius: 10px;
+    display: none;
+}
+
+#compras:hover{
+    display: block;
+}
+
+#lista-compras{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#lista-compras:hover{
+    display: block;
+}
+
+#item-lista-1,#item-lista-2,#item-lista-3,
+#item-lista-4,#item-lista-5,#item-lista-6,
+#item-lista-7,#item-lista-8,#item-lista-9,
+#item-lista-total{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    display: none;
+}
+
+.elemento2{
+    margin-right: auto;
+}
+
+#circle-1, #circle-2, #circle-3, #circle-4,
+#circle-5, #circle-6, #circle-7, #circle-8,
+#circle-9,#circle-10{
+    display: none;
+}
+
+.seccion{
+    color: white;
+}
+
+#suma-resta{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#suma-resta:hover{
+    border: 1px solid black;
+}
+
+.parrafo{
+    border: none;
+    font-size: 18px;
+    background: transparent;
+    display: inline-block;
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+}
+
+.suma, .resta{
+    cursor: pointer;
+}
+
+.selector-cantidad{
+    display: inline-block;
+    margin-right: 25px;
+    border: 1px solid;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-title, .card-text{
+    text-align: center;
+}
+
+.precio{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 30px;
+}
+
+.p-producto,.signo,.new-precio{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.new-precio{
+    display: none;
+}
+
+.new-btn{
+    width: 80px;
+    height: 40px;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 20px;
+}
+
+.new-btn:hover{
+    border: 1px solid black;
+}
+
+
